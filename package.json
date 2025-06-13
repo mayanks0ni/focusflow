@@ -1,0 +1,23 @@
+{
+  "name": "focusflow",
+  "version": "1.0.0",
+  "description": "An AI-powered study planner that schedules sessions, tracks progress, and gives smart feedback for continuous improvement.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.4.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "googleapis": "^150.0.1",
+    "luxon": "^3.6.1",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
