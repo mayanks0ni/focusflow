@@ -29,11 +29,11 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/focusflow.git
+git clone https://github.com/mayanks0ni/focusflow.git
 cd focusflow
 ```
 
-> *(Note: Replace with your actual repo if publishing)*
+> *https://github.com/mayanks0ni/focusflow/*
 
 ---
 
@@ -47,18 +47,16 @@ npm install
 
 ### 3. Environment Variables
 
-Create a `.env` file in the root with the following:
+Modify `.env` file in the root with the following:
 
 ```
-PORT=5000
-GEMINI_API_KEY=your_gemini_api_key_here
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_REDIRECT_URI=https://developers.google.com/oauthplayground
-GOOGLE_REFRESH_TOKEN=your_google_refresh_token
+GEMINI_API_KEY="your gemini API key"
+PROJECT_NUMBER="your project number"
+CALENDAR_ID="your calendar ID"
 ```
 
 You also need `credentials.json` for the Google Calendar API, which should be placed in the root directory. [Follow this guide to get credentials](https://developers.google.com/calendar/api/quickstart/nodejs).
+For more information and step by step instruction for setting up credentials.json refer to this [link](https://www.geeksforgeeks.org/node-js/how-to-integrate-google-calendar-in-node-js/).
 
 ---
 
