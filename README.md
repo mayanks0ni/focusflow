@@ -84,17 +84,33 @@ npm run dev
 
 ---
 
+### OR
+
+## Run Docker-Compose
+
+```bash
+Docker-compose up --build -d
+```
+---
+
 ## 📦 Folder Structure
+
 
 ```
 focusflow/
+├──docker-compose.yml
+├──Dockerfile
+├──.dockerignore
 ├── server.js
 ├── package.json
-├── .env
+├── .env.sample
 ├── credentials.json
+├──knexfile.js
 ├── database/
-│   └── data.db
+│   └── migrations/
+        ├── 20251013162156_create_user_data_table
 ├── frontend/
+│   ├── Dockerfile
 │   ├── index.html
 │   ├── src/
 │   ├── public/
