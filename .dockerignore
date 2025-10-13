@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+frontend/node_modules
+database/data.db-journal
+.env
+.git
+.gitignore
+frontend/dist

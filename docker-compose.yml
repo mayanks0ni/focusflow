@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: .
+    container_name: focusflow-backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./database:/app/database
+    depends_on:
+      - frontend
+
+  frontend:
+    build: ./frontend
+    container_name: focusflow-frontend
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true
